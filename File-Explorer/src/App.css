@@ -1,3 +1,7 @@
+.App {
+   margin: auto;
+}
+
 .folder {
     margin-top: 6px;
     background-color: #FFF9C4;
@@ -22,22 +26,22 @@
     flex-direction: column;
 }
 
-.folder > div > button {
+.folder>div>button {
     font-size: 15px;
     background-color: white;
-  }
+}
 
-  .inputContainer{
+.inputContainer {
     display: flex;
     align-items: center;
     gap: 5px;
-  }
-  
-  .inputContainer>span{
+}
+
+.inputContainer>span {
     margin-top: 5px;
-  }
-  
-  .inputContainer_input {
+}
+
+.inputContainer_input {
     margin: 6px 0 0px 0;
     padding: 5px;
     display: flex;
@@ -45,4 +49,4 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-  }
+}
